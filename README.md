@@ -3,5 +3,6 @@ Demonstração do RabbitMQ, apresentação das principais funcionalidades e repr
 
 # Setup RabbitMQ
 `docker container run -d --hostname rabbit-host --name rabbit-example -p 15672:15672 -p 5672:5672 rabbitmq:management`
+- acessar: http://localhost:15672/
 - username: guest
 - password: guest
